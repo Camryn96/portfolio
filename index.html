@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <img src="https://i.postimg.cc/14x3SKh2/welcome-international-ostomy-association-7.png" alt="logo" width="250px" height="250px">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#project">Project</a></li>
+        <a href="">
+        <img class="logo"; src="https://i.postimg.cc/Kz8ZW5sm/423-4236762-1500-x-1293-0-harry-potter-deathly-hallows-png.jpg">
+        </a>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#project">Project</a></li>|
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,23 +25,49 @@
         <!--Home-->
         <section id="home">
             <h2>Home</h2>
-            <div>
-                <h4>Camryn Herandien</h4>
+            <div class="wrapper">
+                <h4>Camryn Herandien</h4>  
                 <img src="https://i.postimg.cc/Nj95WL3W/image-70-1200x900.webp" alt="Camryn Profile"  width="250px" height="250px">
-                <p>Student</p>
+                <p>Aspiring Developer</p> 
             </div>
         </section>
         <!--Resume-->
         <section id="resume">
             <h2>Resume</h2>
+            <p>Pharmcy Assistant.</p>
+            <p>Garden worker</p>     
         </section>
         <!--Project-->
         <section id="project">
-          <h2>Project</h2>  
+          <h2>Project</h2>
+          <a href="https://github.com/Camryn96?tab=repositories">Projects</a>
         </section>
         <!--Contact-->
         <section id="contact">
-            <h2>Contact</h2>
+        </nav>
+    </header>
+</main>
+    <h2>Contact</h2>
+    <div class="container">
+    <form action="https://formspree.io/f/xdojzbkj"target="_blank" method="POST">
+        <div>
+            <label for="#firstname">Name</label>
+            <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="#surname">Surname</label>
+            <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+        </div>
+        <div>
+            <label for="#message">Message</label>
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </div>
+    </form>
+</main>
         </section>
     </main>
 </body>
