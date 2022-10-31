@@ -1,0 +1,67 @@
+ <div class="text-center">
+               <img class="profile w-2" src="https://i.postimg.cc/mrLMZz9L/Stalin-1920-1.jpg">
+             </div> 
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		   --Skills-Bar--
+
+		   <body class="skillsbod">
+
+			<!--Skills-Bar-->
+			<center>
+				<h1>My Skills</h1>
+				<!--Html-->
+				<div class="container-fluid">
+					<p>HTML <i class="fa-brands fa-html5"></i></p>
+					<div class="skills html">85%</div>
+			</div>
+			</center>
+			<center>
+				<p>CSS <i class="fa-brands fa-css3-alt align-content-center"></i></p>
+				<div class="container-fluid">
+				  <div class="skills css">75%</div>
+				</div>
+			</center>
+		<!--Css-->
+		<center>
+			<!--javascript-->
+			<p>Bootstrap<i class="fa-brands fa-bootstrap"></i></i></p>
+			<div class="container-fluid">
+			  <div class="skills js">50%</div>
+			</div>
+		</center>
+		
+		<center>
+			<!--php-->
+			<p>PHP <i class="fa-brands fa-php"></i></p>
+			<div class="container-fluid">
+			  <div class="skills php">20%</div>
+			</div>
+		</center>
+		<br>
+			</section>
+			<center>
+				<img class="gif"src="https://i.postimg.cc/xTjcXKFR/jim-carrey-work.gif">
+			</center>

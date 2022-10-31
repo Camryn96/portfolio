@@ -1,65 +1,361 @@
-/*select all elements*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*Entire page*/
+*,
+*::after,
+*::before{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
 }
-/*header, main, footer*/
-header, main, footer {
-    min-width: 100%;
+/*download button-index-pg*/
+/*cv button*/
+.cv-button{
+	width: 100%;
+	height: cm;
 }
-/*header*/ 
-header {
-    display:inline-flex;
-    justify-content: space-between;
+.cv{
+	height: 35px;
+	width: 2.5cm;
+	text-align: center;
+	background-image: url(https://i.pinimg.com/originals/bd/8b/ff/bd8bffd78009eab632d34294f1b760bb.gif);
 }
-.logo{
-  width: 3em;  
+/*skills bar icons*/
+.icon{
+	height: 1cm;
+	width: 1cm;
+	border-radius: 100%;
 }
-/* place the menu to the right of the page*/
-.menu {
-/*margin: auto 0;*/
+/*logo*/
+.navbar-brand{
+	border-radius: 100%;
+	background-size: cover;
+	background-image: url(https://i.postimg.cc/KcJZr4NT/tumblr-mabghujjr-P1rr86mho1-500.gif);
+}
+/*link-colors*/
+/*.nav-link{
+	background-color: red;
+}
+.nav-link:nth-child(1){
+	background-color: green;
+}
+.nav-link:nth-child(2){
+	background-color: yellow;
+}*/
+/*testimonial bg*/
+.container-test{
+	background-color: #81C6E8;
+	
+}
+/*contact me background*/
+.contactbod{
+	background-color:#81C6E8 ;
+}
+/*About me background*/
 
-align-items: flex-end;
-margin: 5px 10px 0;
+/*testimonial background*/
+.testbod{
+background-color: #81C6E8 ;
 }
-.menu-list {
-    display: inline-flex;
-    list-style: none;
+/*education background*/
+.edubod{
+	background-color: #81C6E8;
 }
-.menu-list li{
-    padding: 0 20px;
-}
-/*main*/
-/*heading*/
-h1, h2, h3, h4, h5, h6{
-    text-align: center;
-    margin-bottom: 15px;
 
+/*skills background*/
+.skillsbod{
+	background-color:  #81C6E8;
 }
-/* home */
-#home {
-    background-color: none;
+header{
+	background-color: #7DE5ED ;
 }
-.wrapper {
-    min-height: 100vh;
-    align-content: center;
+
+.tit{
+	background-color: #81C6E8;
 }
-.wrapper img{
-    display: block;
-    margin: 15px auto;
-    width: 80%;
-    height: 80%;
+.snip{
+	background-color: #5DA7DB;
 }
-.wrapper p {
-    text-align: center;
+
+footer{
+	background-color: #5837D0 ;
 }
+/*main picture*/
+.profile{
+    border-style: double;
+	border-color: #5837D0;
+	border-width:0.9cm;
+}
+
+/*skills-bar*/
 .container {
-    width: 240px;
-    clear: both;
+  margin-top: 20px;
+}
+.text-center{
+	/*background-color: #81C6E8;*/
+}
+
+h2 {
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
+  
+  .skills {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+  }
+  .html {width: 85%; background-color: red;}
+  .css {width: 75%; background-color: yellow;}
+  .js {width: 50%; background-color: green;}
+  .php {width: 20%; background-color: blue;}
+
+ /*gif in skills*/
+ .gif{
+	border-radius: 100px;
+ }
+
+ /* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
   }
   
-  .container input {
-    width: 240px;
-    clear: both;
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
   }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(238, 255, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+  }
+  /*width and height of testimonial pic*/
+  .mySlides fade{
+	height: 0%;
+	width: 0%;
+  }
+
+  /*contact form*/
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: crimson;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Skillsbar*/
+.containerskill{
+	width: 100%;
+	margin: 0 auto;
+  }
+  @keyframes load{
+	from {
+	  width: 0%
+	}
+  }
+  @-webkit-keyframes load{
+	from {
+	  width: 0%
+	}
+  }
+  @-moz-keyframes load{
+	from {
+	  width: 0%
+	}
+  }
+  @-o-keyframes load{
+	from {
+	  width: 0%
+	}
+  }
+  
+  .bar{
+	background-color:  #81C6E8 ;
+	padding: 5px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px lightblue;
+  }
+  .bar::before{
+	content:  attr(data-skill);
+	background-color: lightblue;
+	display: inline-block;
+	padding: 5px 5 5px 5px;
+	border-radius: inherit;
+	animation: load 2s 0s;
+	-webkit-animation: load 2s 0s;
+	-moz-animation: load 2s 0s;
+	-o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+	background-color: lightblue;
+  }
+  .bar.back::before{
+	background-color: blue;
+  }
+  
+  .bar.learning::before{
+	width: calc(90% - 10px);
+	background-color: #5837D0;
+  }
+  .bar.basic::before{
+	width: calc(80% - 10px);
+	background-color: #5DA7DB;
+  }
+  .bar.intermediate::before{
+	width: calc(75% - 10px);
+	background-color:#5837D0 ;
+  }
+  .bar.advanced::before{
+	width: calc(50% - 10px);
+	background-color: #5DA7DB;
+  }
+  .bar.expert::before{
+	width: calc(100% - 10px);
+  }
+  
