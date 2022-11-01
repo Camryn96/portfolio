@@ -6,6 +6,20 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
+
+}
+/*index page font size*/
+
+/*background image for cards on testimonial page*/
+.card{
+	background-image: url(../assets/images/peaceful.jpg);
+}
+/*carousel on about page*/
+.carousel-item{
+	background-image: url(../assets/images/peaceful.jpg);
+	background-repeat: no-repeat;
+	/*background-position:;*/
+	background-size: cover;
 }
 /*download button-index-pg*/
 /*cv button*/
@@ -27,43 +41,56 @@
 }
 /*logo*/
 .navbar-brand{
+	background-position:1.1cm;
 	border-radius: 100%;
 	background-size: cover;
-	background-image: url(https://i.postimg.cc/KcJZr4NT/tumblr-mabghujjr-P1rr86mho1-500.gif);
+	background-image: url(../assets/icons/butters.gif);
 }
 /*link-colors*/
-/*.nav-link{
-	background-color: red;
-}
-.nav-link:nth-child(1){
-	background-color: green;
-}
-.nav-link:nth-child(2){
-	background-color: yellow;
-}*/
 /*testimonial bg*/
 .container-test{
 	background-color: #81C6E8;
 	
 }
+/*contact form background*/
+	.containerform{
+		background-image: url(../assets/images/peaceful.jpg);
+		background-size: cover;
+	}
 /*contact me background*/
 .contactbod{
+	background-image: url(../assets/images/peaceful.jpg);
 	background-color:#81C6E8 ;
 }
+/*social media*/
+.socials{
+	background-color: #81C6E8 ;
+}
 /*About me background*/
+ .tit2{
+	background-color: #81C6E8 ;
+ }
 
 /*testimonial background*/
+/*.col{
+	background-image: url(../assets/images/peaceful.jpg);
+	background-size: cover;
+}*/
 .testbod{
 background-color: #81C6E8 ;
 }
 /*education background*/
 .edubod{
 	background-color: #81C6E8;
+	background-image: url(../assets/images/peaceful.jpg);
+	background-size: cover;
 }
 
 /*skills background*/
 .skillsbod{
 	background-color:  #81C6E8;
+	background-image: url(../assets/images/peaceful.jpg);
+	background-size: cover;
 }
 header{
 	background-color: #7DE5ED ;
@@ -71,9 +98,11 @@ header{
 
 .tit{
 	background-color: #81C6E8;
+	background-image: url(../assets/images/peaceful.jpg);
+	background-size: cover;
 }
 .snip{
-	background-color: #5DA7DB;
+	/*background-color: #5DA7DB;*/
 }
 
 footer{
@@ -82,7 +111,7 @@ footer{
 /*main picture*/
 .profile{
     border-style: double;
-	border-color: #5837D0;
+	border-color: #5DA7DB;
 	border-width:0.9cm;
 }
 
@@ -257,7 +286,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: crimson;
+  background-color:cadetblue ;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -311,7 +340,7 @@ input[type=submit]:hover {
   }
   
   .bar{
-	background-color:  #81C6E8 ;
+	/*background-color:  #81C6E8 ;*/
 	padding: 5px;
 	border-radius: 15px;
 	margin-bottom: 50px;
@@ -319,6 +348,7 @@ input[type=submit]:hover {
 	color: black;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px lightblue;
+	background-color: transparent;
   }
   .bar::before{
 	content:  attr(data-skill);
@@ -358,4 +388,13 @@ input[type=submit]:hover {
   .bar.expert::before{
 	width: calc(100% - 10px);
   }
-  
+  .whatsapp{
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	float: inline-end;
+  }
+  .display-2{
+	background-color: #81C6E8 ;
+  }
+ 
